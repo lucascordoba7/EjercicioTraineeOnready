@@ -2,7 +2,7 @@
 package datos;
 
 
-public class Vehiculo implements Comparable<Vehiculo> {
+public abstract class Vehiculo implements Comparable<Vehiculo> {
     protected String marca;
     protected String modelo;
     protected double precio;
@@ -14,9 +14,7 @@ public class Vehiculo implements Comparable<Vehiculo> {
     
     }
     @Override
-    public String toString(){
-        return null;
-    }
+    public abstract String toString();
 
     public String getMarca() {
         return marca;
