@@ -1,9 +1,9 @@
 package datos;
 
 public class Moto extends Vehiculo {
-    private int cilindrada;
+    private String cilindrada;
     
-    public Moto(String marca, String modelo, int cilindrada,double precio)
+    public Moto(String marca, String modelo, String cilindrada,double precio)
     {
         super(marca,modelo,precio);
         this.cilindrada=cilindrada;

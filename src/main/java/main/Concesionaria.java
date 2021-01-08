@@ -27,11 +27,19 @@ public class Concesionaria {
         }
         
     }
-    public void agregarAuto(String marca,String modelo,int puertas,double precio)
+    /*public void agregarAuto(String marca,String modelo,int puertas,double precio)
     {
         lista.add(new Auto(marca,modelo,puertas,precio));
     }
     public void agregarMoto(String marca,String modelo,int cilindrada,double precio)
+    {
+        lista.add(new Moto(marca,modelo,cilindrada,precio));
+    }*/
+    public void agregarVehiculo(String marca,String modelo,int puertas,double precio)
+    {
+        lista.add(new Auto(marca,modelo,puertas,precio));
+    }
+    public void agregarVehiculo(String marca,String modelo,String cilindrada,double precio)
     {
         lista.add(new Moto(marca,modelo,cilindrada,precio));
     }
